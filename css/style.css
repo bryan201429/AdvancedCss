@@ -177,7 +177,7 @@ animation: buttonEmerge 1.5s ease-out .75s;
 animation-fill-mode: backwards;             /*Set animation values defined at 0% in the keyframe*/
 }
 
-@keyframes buttonEmerge {
+@keyframes buttonEmerge {                   /*Boton emergente*/
     0%{
         opacity: 0;
         transform: translateY(+100px);
